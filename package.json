@@ -4,8 +4,14 @@
   "description": "Games collecting app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -c-1"
   },
   "author": "",
-  "license": "SEE LICENCE IN licence"
+  "license": "SEE LICENCE IN licence",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
 }
+
+

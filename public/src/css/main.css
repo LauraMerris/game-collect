@@ -1,0 +1,43 @@
+html{
+    font-family:verdana, arial, sans-serif;
+    font-size: 1rem;
+}
+
+input, label{
+    display:block;
+}
+
+label{
+    margin:1rem 0 0 0;
+}
+
+button{
+    padding:1rem;
+    border:none;
+    margin-top:1rem;
+    font-size:1rem;
+}
+
+.button-add{
+    background:cadetblue;
+    color:#fff;
+}
+
+.link{
+    display:inline-block;
+    padding:1rem;
+    text-decoration:none;
+}
+
+.link:hover{
+    text-decoration:none;
+}
+
+.link--add{
+    background:rgb(118, 196, 170);
+    color:#fff;
+}
+
+.link--skip{
+    color:#5c5c5c;
+}
